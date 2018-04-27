@@ -43,6 +43,7 @@ RUN ./configure \
     --with-zlib \
     --with-openssl \
     --without-pear \
-    --enable-ctype
+    --enable-ctype \
+    --enable-tokenizer
 
 RUN make -j 5
