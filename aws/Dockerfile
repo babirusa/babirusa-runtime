@@ -44,6 +44,11 @@ RUN ./configure \
     --with-openssl \
     --without-pear \
     --enable-ctype \
-    --enable-tokenizer
+    --enable-tokenizer \
+    --enable-iconv \
+    --enable-json \
+    --enable-ctype \
+    --enable-simplexml \
+    --enable-dom
 
 RUN make -j 5
